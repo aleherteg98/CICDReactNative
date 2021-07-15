@@ -77,7 +77,7 @@ const App = () => {
         onChangeText={value => setTimeInYears(value)}
       />
       <Button
-        title="Calculate inflation"
+        title="Calculate new amount"
         onPress={() => {
           calculate();
           Analytics.trackEvent('calculate_inflation', {
@@ -115,6 +115,7 @@ const styles = StyleSheet.create({
     borderColor: 'gray',
     borderWidth: 1,
     marginTop: 10,
+    paddingHorizontal: 10,
   },
   scrollView: {
     backgroundColor: Colors.lighter,
