@@ -13,12 +13,20 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		161A10E6E0E005C8371BC51B /* libPods-InflationCalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B991A4C250897B133F0A2751 /* libPods-InflationCalc.a */; };
 		682C012E269ED9540020E3E2 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 682C012D269ED9540020E3E2 /* AppCenter-Config.plist */; };
+		68A9F6EA26A0376200989EB3 /* InflationCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A9F6E926A0376200989EB3 /* InflationCalcUITests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		F90ACF4752D7C3552AAAE33F /* libPods-InflationCalc-InflationCalcTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A17FDF4A367C2B915CC8F15A /* libPods-InflationCalc-InflationCalcTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = InflationCalc;
+		};
+		68A9F6EC26A0376200989EB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
@@ -41,6 +49,9 @@
 		1AF90102D3399E652B972F2A /* Pods-InflationCalc-InflationCalcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalc-InflationCalcTests.debug.xcconfig"; path = "Target Support Files/Pods-InflationCalc-InflationCalcTests/Pods-InflationCalc-InflationCalcTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E3DD72A35439CA06723429F /* Pods-InflationCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalc.release.xcconfig"; path = "Target Support Files/Pods-InflationCalc/Pods-InflationCalc.release.xcconfig"; sourceTree = "<group>"; };
 		682C012D269ED9540020E3E2 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
+		68A9F6E726A0376200989EB3 /* InflationCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InflationCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A9F6E926A0376200989EB3 /* InflationCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InflationCalcUITests.m; sourceTree = "<group>"; };
+		68A9F6EB26A0376200989EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = InflationCalc/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A17FDF4A367C2B915CC8F15A /* libPods-InflationCalc-InflationCalcTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InflationCalc-InflationCalcTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5D9372DEE456CF154F55FF /* Pods-InflationCalc-InflationCalcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalc-InflationCalcTests.release.xcconfig"; path = "Target Support Files/Pods-InflationCalc-InflationCalcTests/Pods-InflationCalc-InflationCalcTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +73,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				161A10E6E0E005C8371BC51B /* libPods-InflationCalc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A9F6E426A0376200989EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +126,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		68A9F6E826A0376200989EB3 /* InflationCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68A9F6E926A0376200989EB3 /* InflationCalcUITests.m */,
+				68A9F6EB26A0376200989EB3 /* Info.plist */,
+			);
+			path = InflationCalcUITests;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +149,7 @@
 				13B07FAE1A68108700A75B9A /* InflationCalc */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* InflationCalcTests */,
+				68A9F6E826A0376200989EB3 /* InflationCalcUITests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E63976CBB41470048852970E /* Pods */,
@@ -136,6 +164,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* InflationCalc.app */,
 				00E356EE1AD99517003FC87E /* InflationCalcTests.xctest */,
+				68A9F6E726A0376200989EB3 /* InflationCalcUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,7 +191,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				D377B11A23A2BC45B77FE377 /* [CP] Embed Pods Frameworks */,
 				0759AF022EE17AE7CE33A57F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -185,7 +213,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				336A4CB48CB88271E92BE417 /* [CP] Embed Pods Frameworks */,
 				10336CCCD311F96C5398BE69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -196,6 +223,24 @@
 			productName = InflationCalc;
 			productReference = 13B07F961A680F5B00A75B9A /* InflationCalc.app */;
 			productType = "com.apple.product-type.application";
+		};
+		68A9F6E626A0376200989EB3 /* InflationCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A9F6EE26A0376200989EB3 /* Build configuration list for PBXNativeTarget "InflationCalcUITests" */;
+			buildPhases = (
+				68A9F6E326A0376200989EB3 /* Sources */,
+				68A9F6E426A0376200989EB3 /* Frameworks */,
+				68A9F6E526A0376200989EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68A9F6ED26A0376200989EB3 /* PBXTargetDependency */,
+			);
+			name = InflationCalcUITests;
+			productName = InflationCalcUITests;
+			productReference = 68A9F6E726A0376200989EB3 /* InflationCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -211,6 +256,10 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+					};
+					68A9F6E626A0376200989EB3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 				};
 			};
@@ -229,6 +278,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* InflationCalc */,
 				00E356ED1AD99517003FC87E /* InflationCalcTests */,
+				68A9F6E626A0376200989EB3 /* InflationCalcUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,6 +298,13 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				682C012E269ED9540020E3E2 /* AppCenter-Config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A9F6E526A0376200989EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,23 +359,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InflationCalc/Pods-InflationCalc-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		336A4CB48CB88271E92BE417 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InflationCalc/Pods-InflationCalc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InflationCalc/Pods-InflationCalc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InflationCalc/Pods-InflationCalc-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5EBBB4255C79ACB02B8A438C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,23 +403,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D377B11A23A2BC45B77FE377 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InflationCalc-InflationCalcTests/Pods-InflationCalc-InflationCalcTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InflationCalc-InflationCalcTests/Pods-InflationCalc-InflationCalcTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InflationCalc-InflationCalcTests/Pods-InflationCalc-InflationCalcTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,6 +442,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		68A9F6E326A0376200989EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A9F6EA26A0376200989EB3 /* InflationCalcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -426,6 +457,11 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* InflationCalc */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		68A9F6ED26A0376200989EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* InflationCalc */;
+			targetProxy = 68A9F6EC26A0376200989EB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -435,6 +471,7 @@
 			baseConfigurationReference = 1AF90102D3399E652B972F2A /* Pods-InflationCalc-InflationCalcTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R8XZKX3H45;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -463,6 +500,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = R8XZKX3H45;
 				INFOPLIST_FILE = InflationCalcTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,7 +526,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_BITCODE = NO;
+				DEVELOPMENT_TEAM = R8XZKX3H45;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = InflationCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,11 +553,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8XZKX3H45;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = InflationCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -527,7 +569,66 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = InflationCalc;
 				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = NO;
 				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		68A9F6EF26A0376200989EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = R8XZKX3H45;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = InflationCalcUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleherteg.InflationCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InflationCalc;
+			};
+			name = Debug;
+		};
+		68A9F6F026A0376200989EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = R8XZKX3H45;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = InflationCalcUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleherteg.InflationCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InflationCalc;
 			};
 			name = Release;
 		};
@@ -671,6 +772,15 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68A9F6EE26A0376200989EB3 /* Build configuration list for PBXNativeTarget "InflationCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A9F6EF26A0376200989EB3 /* Debug */,
+				68A9F6F026A0376200989EB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
